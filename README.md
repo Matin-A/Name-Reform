@@ -26,7 +26,7 @@ Regex (Regular Expressions) is a word (sequence of characters) which is a patter
 Regex Keyword must follow Java Regex Rules. [Here](https://docs.google.com/document/d/1CDhy9E-SLz_CeW5VSJ-uM63UPCEj2O3hQUsicKNE178/edit?usp=sharing) is a short summary of rules.
 
 ## How to enter Replacement Regex
-This field needs a custom Regex (not Java Regex). You need to use groups in Target Regex so that u could use them here. You can call a group like this: *<num>* f.e: *3*
+This field needs a custom Regex (not Java Regex). You need to use groups in Target Regex so that u could use them here. You can call a group like this: `*<num>*` f.e: `*3*`
 
 # Screenshot
 ![screenshot](https://github.com/Matin-A/Name-Reform/blob/v1.0.0-releases-archived/NameReformScreenshot.png)
