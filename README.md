@@ -29,4 +29,4 @@ Regex Keyword must follow Java Regex Rules. [Here](https://docs.google.com/docum
 This field needs a custom Regex (not Java Regex). You need to use groups in Target Regex so that u could use them here. You can call a group like this: *<num>* f.e: *3*
 
 # Screenshot
-![screenshot](https://github.com/Matin-A/Name-Reform/blob/v1.0.0-releases-archived/NameReformScreenshot.jpg)
+![screenshot](https://github.com/Matin-A/Name-Reform/blob/v1.0.0-releases-archived/NameReformScreenshot.png)
