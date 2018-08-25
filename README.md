@@ -16,7 +16,8 @@ Other versions not tested so not recommended.
 Simply copy and run `Name Find & Replace.jar` File. You need JRE pre-installed.
 
 ## How to use the program
-Here is a simple example: I enter `(\d+) - (\w+)` as the Target Regex, `*2* (*1*)` as the Replacement Regex, and `PATH/Directory` as the path, then run the program. Here is the result: every files that matches the first regex (like `313 - HelloWorld`) will be renamed to the second regex formation (`HelloWorld (313)`)
+Here is a simple example: I enter `(\d+) - (\w+)` as the Target Regex, `*2* (*1*)` as the Replacement Regex, and `PATH/Directory` as the path, then run the program. Here is the result: 
+every files that matches the first regex (like `313 - HelloWorld`) will be renamed to the second regex formation (`HelloWorld (313)`)
 
 ## How to enter Target Regex
 Regex (Regular Expressions) is a word (sequence of characters) which is a pattern to more than one word.
