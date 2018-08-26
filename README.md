@@ -20,6 +20,7 @@ Here is a simple example: I enter `(\d+) - (\w+)` as the Target Regex, `*2* (*1*
 
 Every files that matches the first regex (like `313 - HelloWorld`) will be renamed to the second regex formation (`HelloWorld (313)`)
 
+If you still do not know how to use the program contact me so that i make a video.
 ## How to enter Target Regex
 Regex (Regular Expressions) is a word (sequence of characters) which is a pattern to more than one word.
 
