@@ -8,7 +8,7 @@ import java.io.IOException;
 
 /**
  * Created by Matin Afkhami on 25/8/18.
- * Java 10 Recommended.
+ * Java 8 to 10 Recommended.
  */
 public class Main extends Application {
 
