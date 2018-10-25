@@ -5,18 +5,20 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- *Created by Matin Afkhami on 29/6/18.
+ * Created by Matin Afkhami on 29/6/18.
+ * Java 8 to 10 Recommended.
  */
 
 class NameReform {
 
-    private int totalFiles=0, filesToRename=0, fileIndex=-1;
+    private int totalFiles, filesToRename=0, fileIndex=-1;
+    private long longTotalFiles=0;
     private String[][] log;
     private String regex;
     private String replacementRegex;
     private File directory;
 
-    NameReform(String regex, String replacementRegex, File directory) throws IOException {
+    NameReform(String regex, String replacementRegex, File directory) throws Exception {
         if (regex == null || replacementRegex == null || directory == null){
             throw new IOException("Inputs must not be null.");
         }
@@ -32,6 +34,11 @@ class NameReform {
         this.directory = directory;
 
         filesCounter(directory);
+        if (longTotalFiles!=(int)longTotalFiles) {
+            throw new Exception("Files Overloaded");
+        }else {
+            totalFiles=(int)longTotalFiles;
+        }
     }
 
     int getFilesToRename(){
@@ -128,7 +135,7 @@ class NameReform {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     private void filesCounter(File dir) {
-        totalFiles++;
+        longTotalFiles++;
         if (dir.getName().matches(regex)){
             filesToRename++;
         }
