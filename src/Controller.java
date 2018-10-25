@@ -23,7 +23,7 @@ import static javafx.scene.paint.Color.RED;
 
 /**
  * Created by Matin Afkhami on 25/8/18.
- * Java 10 Recommended.
+ * Java 8 to 10 Recommended.
  */
 public class Controller {
 
