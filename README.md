@@ -2,18 +2,19 @@
 When you have directory with large number of files and there is a word (or regex) that all names matches, now you want to change the formation of these names, here this program can help you.
 
 # Features
-* JavaFX Application runs via whether JAR file or CLASS file
+* JavaFX Application runs via Java 8 to 10.
+* Command Line Application runs via Java 8 and above.
 * Rollback any changes after each rename operation.
 
 # Requirements
-* [Java Runtime Environment Version 10.0.2](http://www.oracle.com/technetwork/java/javase/downloads/jre10-downloads-4417026.html) is needed to run JAR file or run it manually.
-Other versions not tested so not recommended.
+* Java 8 and above is needed to run.
 * I tried to write a cross-platform application so there should be no problem on java supported OSs. But I only tested in Windows 10 1803.
 
 # How-to
 
 ## How to run the program
-Simply copy and run `Name Find & Replace.jar` File. You need JRE pre-installed.
+GUI Version: Run `Name Reform.jar` File. You need JRE or JDK pre-installed.
+Console Version: Open CMD or Terminal in jar file directory and execute thi: `java -jar Name Reform Console.jar`
 
 ## How to use the program
 Here is a simple example: I enter `(\d+) - (\w+)` as the Target Regex, `*2* (*1*)` as the Replacement Regex, and `PATH/Directory` as the path, then run the program. Here is the result: 
