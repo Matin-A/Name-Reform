@@ -32,3 +32,7 @@ This field needs a custom Regex (not Java Regex). You need to use groups in Targ
 
 # Screenshot
 ![screenshot](https://github.com/Matin-A/Name-Reform/blob/v1.0.0-releases-archived/NameReformScreenshot.png)
+
+
+#Notice
+Since Java-FX removed from new Java, you need to run command-line app.
