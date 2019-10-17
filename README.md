@@ -35,4 +35,4 @@ This field needs a custom Regex (not Java Regex). You need to use groups in Targ
 
 
 # Notice
-Since Java-FX removed from new Java, you need to run command-line app (Console Version).
+Since Java-FX removed from the newest Java, you may need to run command-line app (Console Version).
